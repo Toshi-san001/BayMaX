@@ -73,8 +73,8 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/ImYanXiao/Elaina-MultiDevice
-$ cd Elaina-MultiDevice
+$ git clone https://github.com/Toshi-san001/BayMaX
+$ cd BayMaX
 $ npm i 
 ```
 If error try using yarn instead of npm, see [here](https://github.com/BochilGaming/games-wabot/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)

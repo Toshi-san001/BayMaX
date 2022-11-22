@@ -29,16 +29,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/ImYanXiao/Elaina-MultiDevice",
+    "homepage": "https://github.com/Toshi-san001/Joline",
     "author": {
-        "name": "ImYanXiao"
+        "name": "Toshi-san001"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ImYanXiao/Elaina-MultiDevice.git"
+        "url": "git+https://github.com/Toshi-san001/Joline.git"
     },
     "bugs": {
-        "url": "https://github.com/ImYanXiao/Elaina-MultiDevice/issues"
+        "url": "https://github.com/Toshi-san001/Joline/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

@@ -1,11 +1,11 @@
 {
-    "name": "Elaina-BOT",
+    "name": "BayMax-BOT",
     "version": "3.3.0",
     "description": "RPG BOT Whatsapp",
     "main": "index.js",
     "type": "module",
    "engines": {
-    "node": "17.1.0"
+    "node": "18.12.1"
   }, 
     "directories": {
         "lib": "lib",
@@ -95,7 +95,7 @@
         "url-regex-safe": "^3.0.0",
         "wa-sticker-formatter": "^4.3.2", 
         "ws": "^8.11.0", 
-        "yargs": "^17.5.1", 
+        "yargs": "^17.6.2", 
         "yt-search": "^2.10.3", 
         "zs-extract": "^1.4.1"
     }

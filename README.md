@@ -4,7 +4,7 @@
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
 ## ```USER REPLIT```
-[![Run on Repl.it](https://repl.it/badge/github/ImYanXiao/Elaina-MultiDevice)](https://repl.it/github/ImYanXiao/Elaina-MultiDevice)
+[![Run on Repl.it](https://repl.it/badge/github/Toshi-san001/BayMaX)](https://repl.it/github/Toshi-san001/BayMaX)
 ## TERMUX USER
 ```bash
 $ pkg upgrade && pkg update

@@ -1,22 +1,14 @@
 // S C R I P T  O R I  B Y  Bochilgaming 🔭
-// Ditulis Ulang Oleh ImYanXiao
-// Credits, jangan dihapus atau diubah!
+// Rewritten By Toshi-san001
+// Credits, don't delete or change!
 
 // - - THANKS TO - -
-// • Allah SWT
+
 // • Nurutomo
 // • Bochilgaming
-// • Rominaru
-// • Kannachann
-// • FahriAdison
-// • The.Sad.Boy01
-// • Rlxfly
-// • Rasel comel
-// • ImYanXiao
-// • Xtreshe (Beban)
-// • Dll
+// • Toshi-san001
 
-//[!] Jangan Lupa Ganti Ownernya
+//[!] Don't forget to change the owner
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
@@ -24,9 +16,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Kolkata').format('HH')
+    let wibm = moment.tz('Asia/Kolkata').format('mm')
+    let wibs = moment.tz('Asia/Kolkata').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -46,27 +38,24 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     
 /*============== SOCIAL ==============*/
 
-// kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Xiao_yan_21' //Link Instagrammu
-global.sgh = 'https://github.com/ImYanXiao' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/DyBMXDw1IshFM9z0ZHZNlR'
-global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+// if you don't have a type "-" or just let it be so there are credits :v
+global.sig = 'https://instagram.com/itz_toshi_02' //Link Instagram
+global.sgh = 'https://github.com/Toshi-san001' //Link Github
 
-/*============== NOMOR ==============*/
-global.nomorbot = '918900351367' //Nomor Bot
-global.nomorown = '919609900020' //Nomor Owner
-global.namebot = 'Elaina BOT' //Nama Bot
-global.nameown = '« 𝖳𝗈𝗌𝗁𝗂 || 𝖪𝗎𝗇 »' // Nama Owner
+/*============== NUMBER ==============*/
+global.nomorbot = '918900351367' //Number Bot
+global.nomorown = '919609900020' //Number Owner
+global.namebot = 'BayMax BOT' //Name Bot
+global.nameown = '« 𝖳𝗈𝗌𝗁𝗂 || 𝖪𝗎𝗇 »' // Name Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['919609900020', '«𝖳𝗈𝗌𝗁𝗂||𝖪𝗎𝗇»', true] //Ganti jd nomormu sama Namamu
-  // [number, dia c𝗋eator/owner?, dia developer?]
+  ['919609900020', '«𝖳𝗈𝗌𝗁𝗂||𝖪𝗎𝗇»', true] //Replace your number with your name
+  // [number, he is c𝗋eator/owner?, he is a developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = [] // Premium user is not here to add it, type .addprem @user 
 
 
 global.lolkey = 'apikeymu'
@@ -91,12 +80,11 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://violetics.pw': 'beta'
 }
-// Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
-
+// The word APIKEY is filled with your own apikey, by buying it on the website
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᴇʟᴀɪɴᴀ - ᴄʜᴀɴ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴇʟᴀɪɴᴀ 𝙱𝙾𝚃'
+global.wm = '                「 BaymAx 𝙱𝙾𝚃 汉  」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘BayMax - Bot˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = 'BayMax 𝙱𝙾𝚃'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -326,7 +314,7 @@ global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 857-3617-8354'
+global.phn = '+91 9609900020'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
